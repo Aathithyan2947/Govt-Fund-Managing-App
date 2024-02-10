@@ -1,0 +1,14 @@
+.nav-link:hover{
+    color: #eba834 !important;
+}
+.login-btn:hover{
+    box-shadow: 0 0px 20px rgba(8, 65, 2, 0.4);
+    transition:0.3s ease-in-out;
+}
+.sign-btn:hover{
+    box-shadow: 0 0px 20px rgba(222, 232, 16, 0.983);
+    transition:0.3s ease-in-out;
+}
+.dropdown-item:hover{
+    color: #eba834 !important;
+}

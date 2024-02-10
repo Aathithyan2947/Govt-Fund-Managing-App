@@ -1,0 +1,16 @@
+.contactCard{
+    background-color: #AB785D;
+    width:400px;
+    border-radius: 10px;
+    height: 50vh;
+}
+.contactBackground{
+    background-color: #FFEDE4;
+    height: 100vh;
+}
+.contact-form{
+    background-color:#AB785D ;
+    border-radius:10px;
+    width: 600px;
+    height: 50vh;
+}

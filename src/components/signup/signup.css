@@ -1,0 +1,15 @@
+.loginContainer{
+    width:400px;
+    border-radius: 20px;
+    background-color: #F9EBE4;
+}
+.signup-img{
+    background-image:url('/src/assets/sign-up.jpg');
+    height: 80vh;
+    width: 50vw;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.second-side{
+    width: 50vw;
+}

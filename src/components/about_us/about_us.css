@@ -1,0 +1,12 @@
+.about_background{
+    background-color:#FFEDE4;
+}
+.sideCard{
+    background-color: #AB785D;
+    width:400px;
+    border-radius: 10px;
+    height: 50vh;
+}
+.content{
+    width: 50vw;
+}
