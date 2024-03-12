@@ -1,0 +1,23 @@
+.adminBackground{
+    background-color: #FFEDE4;
+    height: 100vh;
+}
+.title_head{
+    background-color: #FFEDE4;
+}
+.Statcard{
+    background-color: #AB785D;
+    height:200px;
+    width: 300px;
+    border-radius: 10px;
+}
+.cardIcon{
+    height: 50px;
+}
+.result_value{
+    font-size: 30px;
+    font-weight: bold;
+}
+.table-back{
+    background-color: white;
+}

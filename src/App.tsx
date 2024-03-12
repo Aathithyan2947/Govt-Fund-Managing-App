@@ -6,6 +6,7 @@ import Signup from "./components/signup/signup"
 import AboutUs from "./components/about_us/about_us"
 import ContactUs from "./components/contact_us/contact_us"
 import UserForm from "./components/user_form/UserForm"
+import Admin_dashboard from "./components/admin_dashboard/Admin_dashboard"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/aboutus' element={<AboutUs/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
         <Route path='/form' element={<UserForm/>}></Route>
+        <Route path='/admin' element={<Admin_dashboard/>}></Route>
       </Routes>
     </>
   )

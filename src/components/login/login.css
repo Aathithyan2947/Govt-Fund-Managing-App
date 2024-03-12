@@ -13,3 +13,30 @@
 .second-side{
     width: 50vw;
 }
+.btn:hover{
+    background-color: green !important;
+}
+input{
+    width:100% !important
+}
+span{
+    color:red;
+    display: none;
+}
+input:invalid[focused='true'] ~ span{
+    display: block;
+}
+input:invalid[focused='true']{
+    border: 1px solid red !important;
+}
+.google-button{
+    width:75%;
+    text-align: center;
+    height: 35px !important;
+    background-color: black !important;
+}
+.Login-button{
+    width:75%;
+    text-align: center;
+    height: 35px !important;
+}

@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import './App_navbar.css'
+import Login_change from './Login_component/Login_change';
 
 const App_navbar = () => {
+    const temp=localStorage.getItem("currentUserDetails");
+    const user=JSON.parse(temp!);
   return (
     <>
       <nav className="navbar bg-light navbar-expand-lg me-5 bg-transparent">
@@ -38,13 +41,15 @@ const App_navbar = () => {
                 </li>
                 </ul>
                 {/* login and signup button */}
-                <div className='mt-3 d-flex justify-content-center align-items-center gap-3'>
+                {
+                    user?<Login_change />:<div className='mt-3 d-flex justify-content-center align-items-center gap-3'>
                     <Link className='login-btn text-white text-decoration-none px-3 py-1 rounded-4' style={{backgroundColor:'green'}}
                     to='/Login'>Login</Link>
                     <Link
                     to='/signup' className='sign-btn text-white text-decoration-none px-3 py-1 rounded-4' style={{backgroundColor:'#eba834'}}
                     >Sign up</Link>
                 </div>
+                }
             </div>
             </div>
         </div>

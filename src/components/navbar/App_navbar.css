@@ -12,3 +12,12 @@
 .dropdown-item:hover{
     color: #eba834 !important;
 }
+.userProfileLogo{
+    height: 50px;
+    width:50px;
+    border-radius:50%;
+    text-align: center;
+    background-color:#eba834;
+    color: white;
+    cursor: pointer;
+}
