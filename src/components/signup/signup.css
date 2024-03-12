@@ -13,3 +13,16 @@
 .second-side{
     width: 50vw;
 }
+input{
+    width:100% !important
+}
+span{
+    color:red;
+    display: none;
+}
+input:invalid[focused='true']{
+    border: 1px solid red !important;
+}
+input:invalid[focused='true'] ~ span{
+    display: block;
+}

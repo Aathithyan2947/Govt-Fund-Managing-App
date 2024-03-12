@@ -121,7 +121,7 @@ function Info_table() {
           </div>
           
         </div>
-        <table className='table table-secondary table-striped'>
+        <table className='table table-secondary'>
           <thead>
             <tr className='table-dark'>
               <th>State/UTs Name</th>

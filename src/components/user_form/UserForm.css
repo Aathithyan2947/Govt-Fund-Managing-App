@@ -1,4 +1,14 @@
 .form-back{
     background-color: #FFEDE4;
-    height: 100vh;
+    height: 85vh;
 }
+
+.form-Container{
+    width: 70vh;
+    border-radius: 25px;
+    background-color: white;
+}
+.PhNumber{
+    color: black !important;
+}
+
