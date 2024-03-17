@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import Footer from "../footer/footer";
 import App_navbar from "../navbar/App_navbar";
 import './home.css'
 
 function Home_app() {
+    const navigate = useNavigate();
   return (
     <>
         <div className="MainBackground">
@@ -13,7 +15,7 @@ function Home_app() {
                         <h1 style={{fontWeight:"bold",fontSize:'50px'}}>Physically Challenged <br/>
                             people related schemes                    
                         </h1>
-                        <button className="button">
+                        <button className="button" onClick={()=>navigate('/info_table')}>
                             show more 
                         </button>
                     </div>
